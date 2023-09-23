@@ -1,0 +1,81 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.hero-section {
+  background-color: pink;
+  position: relative;
+  justify-self: left;
+  height: 100%;
+  text-align: center;
+  font-size: x-large;
+  margin-bottom: 10px;
+}
+
+.text-block {
+  margin: auto;
+  padding-left: 25px;
+}
+
+img {
+  border-radius: 20%;
+  float: right;
+  padding-left: 10px;
+}
+
+.developer-1 {
+  float: left;
+  padding-right: 10px;
+}
+
+.aboutme-section {
+  background-color: rgb(245, 245, 232);
+  font-size: larger;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+.resume-section {
+  background-color: rgb(245, 245, 232);
+  font-size: larger;
+  margin-bottom: 10px;
+}
+.project-done {
+  border-radius: 0;
+  font-size: larger;
+  margin-bottom: 10px;
+}
+
+.projects-section {
+  font-size: larger;
+  background-color: rgb(245, 245, 232);
+  margin-bottom: 10px;
+}
+
+.contactme-section {
+  font-size: larger;
+  background-color: rgb(245, 245, 232);
+  margin-bottom: 10px;
+  text-align: center;
+  padding-top: 2cm;
+  padding-bottom: 2cm;
+}
+
+footer {
+  background-color: pink;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+h2 {
+  color: teal;
+}
